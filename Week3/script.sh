@@ -6,7 +6,7 @@
 #: Description : 
 #: Options : 
 
-
+echo "The number of CPU's is:" 
 grep processor /proc/cpuinfo | wc -l
 
 
